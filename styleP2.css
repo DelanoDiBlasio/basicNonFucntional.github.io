@@ -1,0 +1,186 @@
+*,
+*::before ,
+*::after{
+    box-sizing: border-box;
+}
+
+/*start navbar*/
+nav.navbar-toggler{
+    margin: -8px;
+    width: 100%;
+    height: 65px;
+    line-height: 45px;
+    padding: 0px 100px;
+    position:absolute;
+    z-index:1;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    background-color: #505d61;
+}
+
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav .logo p{
+    line-height: 25px;
+    float:left;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    margin-right: 4px;
+    color: #fff;
+    text-decoration:none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+nav ul li a:hover{
+    color: #99ccff;
+}
+
+nav ul li .active{
+    color: #99ccff;
+}
+
+/*end of navbar*/
+
+  p{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 200px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .navbar-brand{
+    color: teal;
+    }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  /*footer*/
+  .pages{
+      text-align: center;
+  }
+/*table*/
+  table,th,td{
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+    width: 50%;
+  }
+
+  th,td{
+      text-align: left;
+      padding: 15px;
+      font-size: 20px;
+  }
+
+  tr:nth-child(even){
+      background-color: #f2f2f2;
+    
+  }
+
+  th{
+      font-size: 25px;
+      background-color: #3394d5;
+      color: white;
+  }
+  tr:nth-child(even):hover{
+    background-color: rgb(36, 164, 187);
+    color: black;
+}
+tr:nth-child(odd):hover{
+    background-color: rgb(194, 29, 186);
+    color: black;
+}
+
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container1 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.container1 ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+

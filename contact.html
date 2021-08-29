@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styleP2.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Delano's Online shoe store contact page.</title>
+</head>
+
+<!--navbar-->
+<header class="header">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="top">
+        <a href=" https://www.instagram.com/delano_di_blasio/" class="navbar-brand">Welcome!</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home Page</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contacts Page</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#socials" class="nav-link ">Our Socials</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#review" class="nav-link">Reviews/Quotes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--end of navbar-->
+
+<body>
+    <!--contact section start-->
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>leave us a message:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="./images/joburg.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="South Africa">South Africa</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--end of contact section-->
+    <hr>
+
+    <!--reviews and quotes.-->
+    <h1 id="review">Reviews/Quotes.</h1>
+    <div class="container1">
+        <h3>Kanye West.</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half"></i><br>
+        <p>"The dopest Sneaker store in the world!"</p>
+        <hr>
+        <h3>Drake.</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i><br>
+        <p>"Only 5 stars, the service is beautiful and the shoes are on another level! GG"</p>
+        <hr>
+        <h3>Nicki Minaj.</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i><br>
+        <p>"Customer service was abit slow to get to me but overall great experience!" </p>
+    </div>
+    <hr>
+    <!--social media table-->
+    <h2 id="socials"><b>Social Media</b></h2>
+    <table style="width:100%">
+        <tr>
+            <th><b>Social Media.</b></th>
+            <th><b>Links.</b></th>
+        </tr>
+        <tr>
+            <td>Facebook</td>
+            <td>Facebook Link - <a href="https://www.facebook.com/delano.diblasio/">Click Here</a></td>
+        </tr>
+        <tr>
+            <td>
+                Instagram
+            </td>
+            <td>Instagram Link - <a href="https://www.instagram.com/delano_di_blasio/">Click Here </a></td>
+        </tr>
+        <tr>
+            <td>
+                Twitter
+            </td>
+            <td>
+                Twitter Link - <a href="https://twitter.com/its_ShAdOwZz_">Click Here</a>
+            </td>
+        </tr>
+    </table>
+    <hr>
+</body>
+<!--bootstrap scripts-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+<!--pages-->
+<footer>
+    <div class="pages">
+        <a href="#top">Back to top</a><br>
+        <hr>
+        <p>Page 2 of 2.</p>
+        <a href="index.html">
+            <<< Back to Page 1</a> </div> </footer> </html>
